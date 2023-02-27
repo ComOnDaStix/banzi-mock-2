@@ -1,0 +1,48 @@
+img {
+    width: 75px;
+    text-align: center;
+    margin-right: 15%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  header {
+    background-color: white;
+  }
+  
+  .kids {
+    transition: opacity 0.8s cubic-bezier(0.44, 0.13, 0.48, 0.87)
+    /* height: 100%; */;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-color: transparent;
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+  }
+  
+  
